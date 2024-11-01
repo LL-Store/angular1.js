@@ -1,0 +1,42 @@
+{
+  "name": "angular1.js",
+  "version": "0.1.0",
+  "description": "🎯 基于Angular1.js搭建的原型项目。",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "grunt",
+    "build": "oipage-cli --delete build && grunt prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LL-Store/angular1.js.git"
+  },
+  "keywords": [
+    "angular1.js",
+    "prototype",
+    "grunt"
+  ],
+  "author": {
+    "name": "zxl20070701",
+    "url": "https://zxl20070701.github.io/notebook/home.html"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LL-Store/angular1.js/issues"
+  },
+  "homepage": "https://github.com/LL-Store/angular1.js#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^2.1.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-postcss": "^0.9.0"
+  },
+  "dependencies": {
+    "oipage": "^0.1.0"
+  }
+}
